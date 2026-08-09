@@ -15,7 +15,7 @@ export default function MarketingCourseworkPage() {
         <p className="eyebrow">Marketing coursework</p>
         <h1>Highlights from my 2026 summer marketing class</h1>
         <p className="coursework-intro">
-          The following assignments show what I learned in my marketing class, and I applied that knowledge by creating practical projects."
+          The following assignments show what I learned in my marketing class, and I applied that knowledge by creating practical projects.
         </p>
         <div className="rubric-strip" aria-label="Every project includes">
           <span>Every project includes</span>
