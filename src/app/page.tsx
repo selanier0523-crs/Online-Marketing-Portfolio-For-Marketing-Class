@@ -65,12 +65,12 @@ export default function Home() {
       <section className="shell section-pad" id="profile" aria-labelledby="profile-title">
         <div className="section-heading">
           <div>
-            <p className="eyebrow">Evidence at a glance</p>
-            <h2 id="profile-title">Technical curiosity. Business range.</h2>
+            <p className="eyebrow">Achievements and experiences</p>
+            <h2 id="profile-title">Building technical skills and real-world experience</h2>
           </div>
           <p>
             My academic work, hands-on experience, and entrepreneurial interests
-            all point toward one goal: helping bring useful products from an idea
+            point toward a common goal: helping bring impactful products from an idea
             into the real world.
           </p>
         </div>
@@ -79,7 +79,24 @@ export default function Home() {
             <article key={achievement.title} className="achievement-card">
               <span>{achievement.value}</span>
               <h3>{achievement.title}</h3>
-              <p>{achievement.detail}</p>
+              <p>
+                {achievement.detail}
+                {achievement.attachmentUrl && achievement.attachmentLabel ? (
+                  <>
+                    {" "}
+                    <a
+                      className="achievement-attachment"
+                      href={achievement.attachmentUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                      aria-label={`${achievement.attachmentLabel}. Opens the design process PDF in a new tab.`}
+                    >
+                      {achievement.attachmentLabel}
+                    </a>
+                    .
+                  </>
+                ) : null}
+              </p>
             </article>
           ))}
         </div>
@@ -91,8 +108,7 @@ export default function Home() {
             <p className="eyebrow">Capabilities</p>
             <h2 id="skills-title">Skills built across disciplines.</h2>
             <p>
-              Engineering gives me a method for solving problems. Business and
-              customer-facing work keep those solutions grounded in real needs.
+              My engineering degree provides me with a strong technical foundation, and my personal projects and work experience have honed my ability to apply these skills in real-world scenarios.
             </p>
           </div>
           <SkillGroups groups={portfolio.skillGroups} />
@@ -122,8 +138,7 @@ export default function Home() {
               <h2 id="projects-title">Learning by building.</h2>
             </div>
             <p>
-              These applications reflect my interest in turning complex or
-              overwhelming information into practical, approachable tools.
+              These applications reflect my interest in web/app development and entrepreneurship, as well as my goals to build tools and products that make an impact in people's lives.
             </p>
           </div>
           <PersonalProjects projects={portfolio.personalProjects} />
@@ -153,7 +168,7 @@ export default function Home() {
       <section className="shell coursework-cta">
         <div>
           <p className="eyebrow">Marketing coursework</p>
-          <h2>Research and communication in practice.</h2>
+          <h2>My Marketing Portfolio</h2>
         </div>
         <Link href="/marketing-coursework" aria-label="View all marketing coursework">
           View all projects <span aria-hidden="true">↗</span>

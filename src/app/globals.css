@@ -342,7 +342,7 @@ a {
 }
 
 .opportunity-inner > p:first-child {
-  font-size: 0.7rem;
+  font-size: 0.9 rem;
   font-weight: 700;
   letter-spacing: 0.13em;
   text-transform: uppercase;
@@ -357,7 +357,7 @@ a {
 
 .opportunity-inner > p:last-child {
   color: rgba(255, 253, 248, 0.8);
-  font-size: 0.9rem;
+  font-size: 1.5 rem;
 }
 
 .section-heading {
@@ -406,7 +406,7 @@ a {
   margin-bottom: 3.5rem;
   color: var(--accent);
   font-family: var(--serif);
-  font-size: 2.8rem;
+  font-size: 1.5rem;
 }
 
 .achievement-card h3 {
@@ -419,6 +419,12 @@ a {
 .achievement-card p {
   color: var(--ink-soft);
   font-size: 0.9rem;
+}
+
+.achievement-attachment {
+  text-decoration: underline;
+  text-decoration-color: var(--accent);
+  text-underline-offset: 0.2em;
 }
 
 .skills-section {
@@ -989,7 +995,7 @@ a {
 .footer-kicker {
   margin-bottom: 1rem;
   color: #e89370;
-  font-size: 0.7rem;
+  font-size: 1rem;
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -1010,7 +1016,7 @@ a {
   gap: 0.75rem;
   padding-bottom: 0.4rem;
   border-bottom: 1px solid rgba(255, 255, 255, 0.55);
-  font-size: 0.73rem;
+  font-size: 1rem;
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -1018,8 +1024,8 @@ a {
 
 .linkedin-icon {
   display: grid;
-  width: 26px;
-  height: 26px;
+  width: 32px;
+  height: 32px;
   place-items: center;
   border-radius: 3px;
   background: #0a66c2;

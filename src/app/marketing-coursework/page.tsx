@@ -5,7 +5,7 @@ import { portfolio } from "@/content/portfolio";
 export const metadata: Metadata = {
   title: "Marketing Coursework",
   description:
-    "Selected marketing coursework with project context, process, and learning reflections.",
+    "The following assignments show what I learned in my marketing class, and how that knowlege turned into practical projects.",
 };
 
 export default function MarketingCourseworkPage() {
@@ -13,11 +13,9 @@ export default function MarketingCourseworkPage() {
     <main>
       <section className="coursework-hero shell section-pad">
         <p className="eyebrow">Marketing coursework</p>
-        <h1>Research, strategy, and creative work—in context.</h1>
+        <h1>Highlights from my 2026 summer marketing class</h1>
         <p className="coursework-intro">
-          These three assignments show how I use observation, audience research,
-          and clear communication to move from information to a practical
-          marketing recommendation.
+          The following assignments show what I learned in my marketing class, and I applied that knowledge by creating practical projects."
         </p>
         <div className="rubric-strip" aria-label="Every project includes">
           <span>Every project includes</span>

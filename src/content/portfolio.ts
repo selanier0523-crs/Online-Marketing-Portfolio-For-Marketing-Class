@@ -45,7 +45,7 @@ export const portfolio = {
     eyebrow: "Ohio State University • Class of 2028",
     tagline: "Engineering ideas into products that improve lives.",
     introduction:
-      "I am majoring in Biomedical Engineering and minoring in Business at Ohio State University with the goal of entering the medical-device industry. My experience spans two years of biomedical engineering coursework, CAD and prototyping, customer service and rental operations, and personal web and app development. I am seeking a research opportunity during the 2026–27 academic year and a medical-device internship for Summer 2027.",
+      "I am majoring in Biomedical Engineering and minoring in Business at The Ohio State University with the goal of entering the medical-device industry. My experience spans two years of biomedical engineering coursework, CAD and prototyping, customer service and business operations, and personal web and app development. I am seeking a research opportunity during the 2026–27 academic year and a medical-device internship for Summer 2027.",
     credentials: [
       "Biomedical Engineering major",
       "Business minor",
@@ -65,28 +65,34 @@ export const portfolio = {
   },
   opportunity: {
     label: "Currently seeking",
-    headline: "Research now. Medical-device experience next.",
+    headline: "Research positions and summer internship opportunities",
     detail:
-      "I am pursuing biomedical engineering research during the 2026–27 academic year while preparing for a Summer 2027 internship in the medical-device field.",
+      "I am pursuing biomedical engineering research during the 2026–27 academic year while seeking a Summer 2027 internship in the medical-device field. I have and will continue to develop my technical skills through corsework, personal projects, and clubs. I also have experience in business operations, customer service, and leadership.",
   },
   achievements: [
     {
-      value: "3.42",
+      value: "3.42 and growing",
       title: "Cumulative GPA",
       detail:
-        "A growing academic foundation built through biomedical engineering coursework at Ohio State.",
+        "I found out the hard way that my high school habits did not translate to college. I have since developed a much more effective approach to studying, time management, and learning overall, and my GPA has steadily improved, as I ended the last two semesters on the deans list.",
+      attachmentUrl: null,
+      attachmentLabel: null,
     },
     {
       value: "01",
       title: "Engineering Showcase selection",
       detail:
-        "My team of four was selected to present a product we designed and developed into a working prototype.",
+        "My team of four was selected to present a product we designed and developed into a working prototype. I have attached the design process that I completed in OnShape",
+      attachmentUrl: "/engineering-showcase-design-process.pdf",
+      attachmentLabel: "here",
     },
     {
       value: "02",
       title: "Summer Catalyst selection",
       detail:
-        "A business venture I am developing with two friends was selected for an Ohio State summer catalyst program.",
+        "A business venture I am developing with two friends was selected for an Ohio State summer catalyst program. It is a B2B2C model in hopes to improve the roommate matching process for universities. We are continuing to develop our product and I will provide an update here soon!",
+      attachmentUrl: null,
+      attachmentLabel: null,
     },
   ],
   skillGroups: [
@@ -117,7 +123,7 @@ export const portfolio = {
     "Leppo Rents is my family’s business, founded by my great-great-grandfather in 1945. It has grown to 14 stores and approximately 200 employees. Over four summers, my responsibilities progressed from utility work to road service and then a full-time rental specialist internship.",
   experience: [
     {
-      period: "Age 13 • One summer",
+      period: "Two summers • ~20 hours/week",
       title: "Hands-on landscaping",
       organization: "Family landscaping work",
       summary:
@@ -131,18 +137,18 @@ export const portfolio = {
       summary:
         "I began with utility work and moved into the road service department as my knowledge of the company and its operations grew.",
       details: [
-        "Maintained the store, stocked shelves, completed inventory, and received orders",
+        "Maintained the store, stocked shelves, completed inventory, completed certification for operating machinery, and received orders",
         "Answered service calls, built work orders, and filed warranties",
       ],
     },
     {
-      period: "11 weeks • 45–50 hours/week",
+      period: "12 weeks • 45–50 hours/week",
       title: "Rental Specialist Intern",
       organization: "Leppo Rents • Cleveland",
       summary:
-        "After training with the previous rental specialist, I took ownership of the primary customer and operational responsibilities for the rental desk.",
+        "After training with the previous rental specialist, I took ownership of the primary customer and operational responsibilities for the rental desk. I headed a team of 3 employees to ensure that the rental operations ran smoothly.",
       details: [
-        "Handled customer calls, equipment questions, availability, future reservations, and equipment sourcing",
+        "Handled customer calls, equipment questions, availability, future reservations, equipment sourcing, and ensured equipment was ready for use",
         "Coordinated delivery and pickup dispatch, prepared quotes and contracts, and completed billing",
         "Delivered an end-of-internship SWOT analysis and presentation covering the company and Cleveland location",
       ],
@@ -154,7 +160,7 @@ export const portfolio = {
       category: "Full-stack web application",
       url: "https://budgeting-app-rose.vercel.app/",
       description:
-        "A personal money-management dashboard designed to make monthly finances easier to understand and act on.",
+        "A personal money-management dashboard designed to make monthly finances easier to understand and act on. This is close to complete, but I have a couple more features I am working on.",
       features: ["Income & spending", "Savings goals", "Budgets & reimbursements"],
     },
     {
@@ -162,7 +168,7 @@ export const portfolio = {
       category: "Guided product-discovery application",
       url: "https://thats-whatsupp-frontend.vercel.app/",
       description:
-        "A calm, safety-conscious supplement discovery experience that helps users narrow options without unnecessary jargon or pressure.",
+        "A calm, safety-conscious supplement discovery experience that helps users narrow options without unnecessary jargon or pressure. This project is still in development.",
       features: ["Guided search", "Conversational assistance", "Goal, ingredient & budget filters"],
     },
   ] satisfies PersonalProject[],
