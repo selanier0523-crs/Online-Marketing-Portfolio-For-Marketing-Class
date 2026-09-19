@@ -20,6 +20,15 @@ export function SiteHeader() {
         <nav className="site-nav" aria-label="Primary navigation">
           <Link href="/">About</Link>
           <Link href="/marketing-coursework">Coursework</Link>
+          <a
+            className="header-linkedin-button"
+            href={portfolio.linkedInUrl}
+            target="_blank"
+            rel="noreferrer"
+            aria-label={`Connect with ${portfolio.identity.name} on LinkedIn`}
+          >
+            LinkedIn
+          </a>
         </nav>
       </div>
     </header>

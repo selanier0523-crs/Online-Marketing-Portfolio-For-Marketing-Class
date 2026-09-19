@@ -146,6 +146,23 @@ a {
   transform: scaleX(1);
 }
 
+.site-nav .header-linkedin-button {
+  padding: 0.7rem 1rem;
+  border: 1px solid var(--ink);
+  transition:
+    background-color 180ms ease,
+    color 180ms ease;
+}
+
+.site-nav .header-linkedin-button::after {
+  display: none;
+}
+
+.site-nav .header-linkedin-button:hover {
+  background: var(--ink);
+  color: var(--white);
+}
+
 .eyebrow {
   margin-bottom: 1.15rem;
   color: var(--accent);
@@ -1134,6 +1151,10 @@ a {
   .site-nav {
     gap: 1rem;
     font-size: 0.64rem;
+  }
+
+  .site-nav .header-linkedin-button {
+    padding: 0.6rem 0.7rem;
   }
 
   .hero h1,
