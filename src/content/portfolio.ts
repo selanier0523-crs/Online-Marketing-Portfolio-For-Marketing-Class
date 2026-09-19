@@ -123,15 +123,19 @@ export const portfolio = {
     "Leppo Rents is my family’s business, founded by my great-great-grandfather in 1945. It has grown to 14 stores and approximately 200 employees. Over four summers, my responsibilities progressed from utility work to road service and then a full-time rental specialist internship.",
   experience: [
     {
-      period: "Two summers • ~20 hours/week",
-      title: "Hands-on landscaping",
-      organization: "Family landscaping work",
+      period: "May–Aug 2026 • 45–50 hours/week",
+      title: "Rental Specialist Intern",
+      organization: "Leppo Rents • Cleveland",
       summary:
-        "I worked 20 hours a week with my great-grandfather, learning the fundamentals of plants, mulching, landscaping, and dependable physical work.",
-      details: ["Operated a skid steer", "Operated an excavator"],
+        "After training with the previous rental specialist, I took ownership of the primary customer and operational responsibilities for the rental desk. I headed a team of 3 employees to ensure that the rental operations ran smoothly.",
+      details: [
+        "Handled customer calls, equipment questions, availability, future reservations, equipment sourcing, and ensured equipment was ready for use",
+        "Coordinated delivery and pickup dispatch, prepared quotes and contracts, and completed billing",
+        "Delivered an end-of-internship SWOT analysis and presentation covering the company and Cleveland location",
+      ],
     },
     {
-      period: "Three summers • 20–30 hours/week",
+      period: "May–Aug 2023, 2024 & 2025 • 20–30 hours/week",
       title: "Utility & road service progression",
       organization: "Leppo Rents",
       summary:
@@ -142,16 +146,12 @@ export const portfolio = {
       ],
     },
     {
-      period: "12 weeks • 45–50 hours/week",
-      title: "Rental Specialist Intern",
-      organization: "Leppo Rents • Cleveland",
+      period: "May–Aug 2021 & 2022 • ~20 hours/week",
+      title: "Hands-on landscaping",
+      organization: "Family landscaping work",
       summary:
-        "After training with the previous rental specialist, I took ownership of the primary customer and operational responsibilities for the rental desk. I headed a team of 3 employees to ensure that the rental operations ran smoothly.",
-      details: [
-        "Handled customer calls, equipment questions, availability, future reservations, equipment sourcing, and ensured equipment was ready for use",
-        "Coordinated delivery and pickup dispatch, prepared quotes and contracts, and completed billing",
-        "Delivered an end-of-internship SWOT analysis and presentation covering the company and Cleveland location",
-      ],
+        "I worked 20 hours a week with my great-grandfather, learning the fundamentals of plants, mulching, landscaping, and dependable physical work.",
+      details: ["Operated a skid steer", "Operated an excavator"],
     },
   ] satisfies ExperienceItem[],
   personalProjects: [
